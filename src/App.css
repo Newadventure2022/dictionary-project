@@ -1,23 +1,26 @@
 .App {
   text-align: center;
 }
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 .App-logo {
   vertical-align: middle;
-  height: 3vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 .App-header {
-  background-color: #49ab80;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 40px;
+  color: black;
 }
 .App-footer {
-  min-height: 100vh;
+  min-height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
