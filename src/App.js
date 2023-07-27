@@ -18,13 +18,14 @@ export default function App() {
           <p className="small">
             This app was made by Celia Corona-Doran with React{" "}
             <img src={logo} className="App-logo" alt="logo" />
-            and is{" "}
+            and is open sourced on
             <a
               href="https://github.com/Newadventure2022/Travel-Project"
               target="_blank"
+              rel="noreferrer"
               title="Link to Celia's GitHub"
             >
-              open sourced on GitHub.
+              GitHub.
             </a>
           </p>
         </footer>
