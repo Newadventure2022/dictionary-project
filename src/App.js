@@ -7,7 +7,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>New Dictionary App By Celia</h1>
+          <h1>
+            Dictionary <span className="openBook">📖</span>
+          </h1>
         </header>
         <main>
           <Dictionary />
