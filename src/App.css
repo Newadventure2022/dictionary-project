@@ -26,6 +26,9 @@
   color: black;
   text-align: center;
 }
+.App-footer a {
+  text-decoration: none;
+}
 h1 {
   font-size: 40px;
 }
