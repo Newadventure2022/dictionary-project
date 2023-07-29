@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
 import "./App.css";
+
 import Dictionary from "./Dictionary";
 
 export default function App() {
@@ -7,18 +7,24 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>
-            Dictionary <span className="openBook">📖</span>
-          </h1>
+          <div className="image">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/091/515/original/book.jpeg?1690634784"
+              className="img-fluid"
+              alt="book"
+            />
+            <div className="text">
+              <h1>Dictionary</h1>
+            </div>
+          </div>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Dog" />
         </main>
         <footer className="App-footer">
           <p className="small">
-            This app was made by Celia Corona-Doran with React{" "}
-            <img src={logo} className="App-logo" alt="logo" />
-            and open sourced on
+            This app was made by Celia Corona-Doran with React and open sourced
+            on
             <a
               href="https://github.com/Newadventure2022/Travel-Project"
               target="_blank"
