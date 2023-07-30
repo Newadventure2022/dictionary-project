@@ -41,7 +41,7 @@ export default function App() {
             rel="noreferrer"
             title="Link to Celia's GitHub"
           >
-            <span> GitHub</span>. <i class="fa-brands fa-github"></i>
+            <span> GitHub</span>. <i className="fa-brands fa-github"></i>
           </a>
         </div>
       </footer>
