@@ -36,7 +36,7 @@ export default function App() {
           </a>
           and open sourced on
           <a
-            href="https://github.com/Newadventure2022/Travel-Project"
+            href="https://github.com/Newadventure2022/dictionary-project"
             target="_blank"
             rel="noreferrer"
             title="Link to Celia's GitHub"
