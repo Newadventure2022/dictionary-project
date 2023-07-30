@@ -1,14 +1,15 @@
 import React from "react";
+import "./Dictionary.css";
 
 export default function Images(props) {
   if (props.image) {
     console.log(props.image);
     return (
-      <div className="Image">
-        <div className="row justify-content-between gap-3">
+      <div className="Photo">
+        <div className="row">
           {props.image.map(function (image, index) {
             return (
-              <div className="col-md-3" key={index}>
+              <div className="abc" key={index}>
                 <a
                   href={image.src.original}
                   target="_blank"
