@@ -58,12 +58,14 @@ export default function Dictionary(props) {
             </form>
           </div>
         </section>
-        <section className="images">
-          <Images image={image} />
-        </section>
         <section>
           <Results results={results} />
         </section>
+        <div className="Photo-Gallery">
+          <section className="images">
+            <Images image={image} />
+          </section>
+        </div>
       </div>
     );
   } else {

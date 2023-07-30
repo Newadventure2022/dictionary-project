@@ -47,6 +47,10 @@ p {
   margin-top: 5px;
   text-align: left;
 }
+.Photo-Gallery {
+  margin-bottom: 20px;
+}
+
 section.images {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
