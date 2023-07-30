@@ -1,8 +1,19 @@
 form {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  color: #402a23;
+  font-size: 20px;
   text-align: center;
-  font-size: 30px;
+  width: 100%;
+  margin: 15px 0;
+  padding: 25px;
 }
-
+input {
+  border: white solid 1px;
+  border-radius: 2px;
+  padding-left: 5px;
+  width: 100%;
+}
 h2,
 h3 {
   text-transform: capitalize;
@@ -11,13 +22,14 @@ p {
   font-size: 20px;
   opacity: 0.7;
 }
+
 .dictionary-container {
-  background-color: #a55233;
   color: white;
   margin: 0 auto;
   padding: 0 30px;
   width: 0 auto;
 }
+
 .Dictionary {
   font-weight: 600;
   color: white;
