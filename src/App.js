@@ -18,6 +18,7 @@ export default function App() {
             </div>
           </div>
         </header>
+        <br />
         <main>
           <Dictionary defaultKeyword="Dog" />
         </main>
