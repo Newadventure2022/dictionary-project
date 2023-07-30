@@ -51,7 +51,9 @@ section.images {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
 }
-
+.row {
+  margin-right: 2px;
+}
 .abc {
   width: 33%;
 }
