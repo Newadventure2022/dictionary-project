@@ -11,6 +11,9 @@ h1 {
   margin: 0 auto;
   max-width: 1000px;
 }
+img {
+  border-radius: 10px;
+}
 .container {
   max-width: 1000px;
 }
@@ -23,13 +26,23 @@ h1 {
 }
 
 .App-footer {
-  margin: 30px 0;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  color: #402a23;
   font-size: 20px;
-  color: black;
+  justify-content: center;
+  margin: 30px 0;
+  padding: 3px;
   text-align: center;
 }
-.App-footer a {
+
+.GitHub a {
+  color: #402a23;
+  transition: all 150ms ease-in-out;
+}
+.GitHub a:hover {
+  border-radius: 5px;
+  background: #a55233;
+  color: #f3bc77;
   text-decoration: none;
 }

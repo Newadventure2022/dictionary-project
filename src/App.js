@@ -18,24 +18,34 @@ export default function App() {
             </div>
           </div>
         </header>
-        <br />
+
         <main>
-          <Dictionary defaultKeyword="Dog" />
+          <Dictionary defaultKeyword="Smile" />
         </main>
-        <footer className="App-footer">
-          <p className="small">
-            This app was made by Celia Corona-Doran with React and open sourced
-            on
-            <a
-              href="https://github.com/Newadventure2022/Travel-Project"
-              target="_blank"
-              rel="noreferrer"
-              title="Link to Celia's GitHub"
-            >
-              <span> GitHub</span>.
-            </a>
-          </p>
-        </footer>
+        <section>
+          <footer className="App-footer">
+            <div className="GitHub">
+              This app was made by{" "}
+              <a
+                href="https://celia-corona-doran2023.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+                title="Link to Celia's Portfolio"
+              >
+                <span> Celia Corona-Doran </span>
+              </a>
+              and open sourced on
+              <a
+                href="https://github.com/Newadventure2022/Travel-Project"
+                target="_blank"
+                rel="noreferrer"
+                title="Link to Celia's GitHub"
+              >
+                <span> GitHub</span>.
+              </a>
+            </div>
+          </footer>
+        </section>
       </div>
     </div>
   );

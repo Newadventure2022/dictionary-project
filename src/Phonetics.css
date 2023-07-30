@@ -1,4 +1,4 @@
-a {
+.Phonetic a {
   border: 1px solid #f3bc77;
   border-radius: 20px;
   color: #f3bc77;
@@ -7,7 +7,7 @@ a {
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
-a:hover {
+.Phonetic a:hover {
   background: #f3bc77;
   color: #a55233;
 }
