@@ -23,6 +23,7 @@ export default function App() {
           <Dictionary defaultKeyword="Smile" />
         </main>
       </div>
+      
       <footer className="App-footer">
         <div className="GitHub">
           This app was made by{" "}
