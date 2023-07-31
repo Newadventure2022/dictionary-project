@@ -15,6 +15,7 @@ export default function App() {
             />
             <div className="text">
               <h1>Dictionary</h1>
+              <h2>Looking up words is fun!!</h2>
             </div>
           </div>
         </header>
@@ -23,7 +24,7 @@ export default function App() {
           <Dictionary defaultKeyword="Smile" />
         </main>
       </div>
-      
+
       <footer className="App-footer">
         <div className="GitHub">
           This app was made by{" "}
