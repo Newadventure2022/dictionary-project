@@ -22,7 +22,7 @@ export default function Meaning(props) {
               <Synonyms synonyms={props.meaning.synonyms} />
             </div>
           );
-        }
+        } else return null;
       })}
     </div>
   );
