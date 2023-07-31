@@ -8,20 +8,21 @@ form {
 }
 .Word-Search {
   display: flex;
+  width: 100%;
 }
 input {
   border: white solid 1px;
   border-color: #a55233;
   border-radius: 5px;
   padding-left: 5px;
-  width: 90%;
+  width: 80%;
   margin: 5px 0;
 }
 #serch-button {
   background-color: #a55233;
   color: #fff;
   margin-left: 10px;
-  width: 10%;
+  width: 20%;
 }
 #serch-button:hover {
   border: #a55233;
@@ -86,11 +87,10 @@ section.images {
   form {
     font-size: small;
   }
-  input {
-    border-radius: 3px;
-    width: 70%;
-  }
   #serch-button {
-    width: 30%;
+    margin-left: 5px;
+    font-size: x-small;
+    text-align: center;
+    padding: 3px 6px;
   }
 }
