@@ -5,7 +5,7 @@ form {
   font-size: 25px;
   text-align: center;
   margin: 15px 0;
-  padding: 25px;
+  padding: 20px;
 }
 .Word-Search {
   display: flex;
@@ -15,13 +15,13 @@ input {
   border-color: #a55233;
   border-radius: 5px;
   padding-left: 5px;
-  width: 80%;
+  width: 90%;
   margin: 5px 0;
 }
 #serch-button {
   background-color: #a55233;
   color: #fff;
-  margin-left: 15px;
+  margin-left: 10px;
   width: 10%;
 }
 #serch-button:hover {
@@ -82,4 +82,12 @@ section.images {
 }
 .abc img {
   margin: 10px 10px;
+}
+@media (max-width: 768px) {
+  input {
+    width: 70%;
+  }
+  #serch-button {
+    width: 30%;
+  }
 }
