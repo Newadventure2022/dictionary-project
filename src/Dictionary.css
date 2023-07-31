@@ -87,7 +87,7 @@ section.images {
   form {
     font-size: small;
   }
-  input {
+  .Form-Control {
     border-radius: 5px;
   }
   #serch-button {
