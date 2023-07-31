@@ -87,6 +87,9 @@ section.images {
   form {
     font-size: small;
   }
+  input {
+    border-radius: 5px;
+  }
   #serch-button {
     margin-left: 5px;
     font-size: x-small;
