@@ -87,13 +87,12 @@ section.images {
   form {
     font-size: small;
   }
-  .Form-Control {
-    border-radius: 5px;
-  }
+
   #serch-button {
+    border-radius: 15px;
     margin-left: 5px;
     font-size: x-small;
     text-align: center;
-    padding: 3px 6px;
+    padding: 4px 6px;
   }
 }
