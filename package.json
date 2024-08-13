@@ -11,8 +11,7 @@
     "react-dom": "^18.2.0",
     "react-node": "^1.0.2",
     "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4",
-    "webpack-dev-middleware": "^7.1.1"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
