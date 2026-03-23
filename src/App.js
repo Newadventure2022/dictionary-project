@@ -26,23 +26,23 @@ export default function App() {
 
       <footer className="App-footer">
         <div className="GitHub">
-          This app was made by{" "}
+          Designed and developed by{" "}
           <a
-            href="https://celia-corona-doran2023.netlify.app/"
+            href="https://celiacoronadoran.com"
             target="_blank"
             rel="noreferrer"
             title="Link to Celia's Portfolio"
           >
             <span> Celia Corona-Doran 👩🏾‍💻</span>
           </a>
-          and open sourced on
+          at
           <a
-            href="https://github.com/Newadventure2022/dictionary-project"
+            href="https://www.threegloves.com"
             target="_blank"
             rel="noreferrer"
-            title="Link to Celia's GitHub"
+            title="Link to Three Gloves"
           >
-            <span> GitHub</span>. <i className="fa-brands fa-github"></i>
+            <span> Three Gloves</span>.
           </a>
         </div>
       </footer>
